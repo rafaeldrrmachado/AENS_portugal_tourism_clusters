@@ -1,8 +1,8 @@
-# 🇵🇹 AENS Portugal Tourism Clusters
+# 🇵🇹 AENS Portugal Tourism Competitiveness Clusters
 
 <div align="center">
 
-**A statistical analysis of tourism competitivensse and regional clustering across Portugal.**
+**A statistical analysis of tourism competitiveness and regional clustering across Portugal.**
 
 [View Report](report.pdf)
 
