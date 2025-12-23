@@ -1,0 +1,310 @@
+﻿ID_0;ISO;NAME_0;ID_1;NAME_1;ID_2;NAME_2;HASC_2;CCN_2;CCA_2;TYPE_2;ENGTYPE_2;NL_NAME_2;VARNAME_2;cod_apoio;codigo;localizaca;Cap_Distri;area;MuniCode
+182;PRT;Portugal;1;Évora;1;Évora;PT.EV.EV;0;705;Concelho;Municipality;;;70500;70500;Interior;Capital de Distrito;1306.993;0705
+182;PRT;Portugal;1;Évora;2;Alandroal;PT.EV.AL;0;701;Concelho;Municipality;;;70100;70100;Interior;Nao capital;542.6025;0701
+182;PRT;Portugal;1;Évora;3;Arraiolos;PT.EV.AR;0;702;Concelho;Municipality;;;70200;70200;Interior;Nao capital;683.7760;0702
+182;PRT;Portugal;1;Évora;4;Borba;PT.EV.BO;0;703;Concelho;Municipality;;;70300;70300;Interior;Nao capital;145.1727;0703
+182;PRT;Portugal;1;Évora;5;Estremoz;PT.EV.ES;0;704;Concelho;Municipality;;;70400;70400;Interior;Nao capital;513.7708;0704
+182;PRT;Portugal;1;Évora;6;Montemor-o-Novo;PT.EV.MN;0;706;Concelho;Municipality;;;70600;70600;Interior;Nao capital;1232.906;0706
+182;PRT;Portugal;1;Évora;7;Mora;PT.EV.MR;0;707;Concelho;Municipality;;;70700;70700;Interior;Nao capital;443.9759;0707
+182;PRT;Portugal;1;Évora;8;Mourão;PT.EV.MO;0;708;Concelho;Municipality;;;70800;70800;Interior;Nao capital;278.5712;0708
+182;PRT;Portugal;1;Évora;9;Portel;PT.EV.PO;0;709;Concelho;Municipality;;;70900;70900;Interior;Nao capital;601.1843;0709
+182;PRT;Portugal;1;Évora;10;Redondo;PT.EV.RD;0;710;Concelho;Municipality;;;71000;71000;Interior;Nao capital;369.4748;0710
+182;PRT;Portugal;1;Évora;11;Reguengos de Monsaraz;PT.EV.RM;0;711;Concelho;Municipality;;;71100;71100;Interior;Nao capital;463.7303;0711
+182;PRT;Portugal;1;Évora;12;Vendas Novas;PT.EV.VN;0;712;Concelho;Municipality;;;71200;71200;Interior;Nao capital;222.4160;0712
+182;PRT;Portugal;1;Évora;13;Viana do Alentejo;PT.EV.VA;0;713;Concelho;Municipality;;;71300;71300;Interior;Nao capital;393.6290;0713
+182;PRT;Portugal;1;Évora;14;Vila Viçosa;PT.EV.VV;0;714;Concelho;Municipality;;;71400;71400;Interior;Nao capital;194.8368;0714
+182;PRT;Portugal;2;Aveiro;15;Águeda;PT.AV.AG;0;101;Concelho;Municipality;;;10100;10100;Interior;Nao capital;335.2700;0101
+182;PRT;Portugal;2;Aveiro;16;Ílhavo;PT.AV.IL;0;110;Concelho;Municipality;;;11000;11000;Litoral;Nao capital;72.06496;0110
+182;PRT;Portugal;2;Aveiro;17;Albergaria-a-Velha;PT.AV.AL;0;102;Concelho;Municipality;;;10200;10200;Interior;Nao capital;158.0621;0102
+182;PRT;Portugal;2;Aveiro;18;Anadia;PT.AV.AN;0;103;Concelho;Municipality;;;10300;10300;Interior;Nao capital;216.6325;0103
+182;PRT;Portugal;2;Aveiro;19;Arouca;PT.AV.AR;0;104;Concelho;Municipality;;;10400;10400;Interior;Nao capital;329.1129;0104
+182;PRT;Portugal;2;Aveiro;20;Aveiro;PT.AV.AV;0;105;Concelho;Municipality;;;10500;10500;Litoral;Capital de Distrito;178.7123;0105
+182;PRT;Portugal;2;Aveiro;21;Castelo de Paiva;PT.AV.CP;0;106;Concelho;Municipality;;;10600;10600;Interior;Nao capital;115.0048;0106
+182;PRT;Portugal;2;Aveiro;22;Espinho;PT.AV.EN;0;107;Concelho;Municipality;;;10700;10700;Litoral;Nao capital;21.10641;0107
+182;PRT;Portugal;2;Aveiro;23;Estarreja;PT.AV.ER;0;108;Concelho;Municipality;;;10800;10800;Interior;Nao capital;106.7730;0108
+182;PRT;Portugal;2;Aveiro;24;Mealhada;PT.AV.ME;0;111;Concelho;Municipality;;;11100;11100;Interior;Nao capital;110.6550;0111
+182;PRT;Portugal;2;Aveiro;25;Murtosa;PT.AV.MU;0;112;Concelho;Municipality;;;11200;11200;Litoral;Nao capital;56.77538;0112
+182;PRT;Portugal;2;Aveiro;26;Oliveira de Azeméis;PT.AV.OA;0;113;Concelho;Municipality;;;11300;11300;Interior;Nao capital;161.1189;0113
+182;PRT;Portugal;2;Aveiro;27;Oliveira do Bairro;PT.AV.OB;0;114;Concelho;Municipality;;;11400;11400;Interior;Nao capital;87.31747;0114
+182;PRT;Portugal;2;Aveiro;28;Ovar;PT.AV.OV;0;115;Concelho;Municipality;;;11500;11500;Litoral;Nao capital;142.5167;0115
+182;PRT;Portugal;2;Aveiro;29;São João da Madeira;PT.AV.SJ;0;116;Concelho;Municipality;;;11600;11600;Interior;Nao capital;7.942868;0116
+182;PRT;Portugal;2;Aveiro;30;Santa Maria da Feira;PT.AV.SM;0;109;Concelho;Municipality;;Feira;10900;10900;Interior;Nao capital;215.7080;0109
+182;PRT;Portugal;2;Aveiro;31;Sever do Vouga;PT.AV.SV;0;117;Concelho;Municipality;;;11700;11700;Interior;Nao capital;130.6917;0117
+182;PRT;Portugal;2;Aveiro;32;Vagos;PT.AV.VG;0;118;Concelho;Municipality;;;11800;11800;Litoral;Nao capital;164.9069;0118
+182;PRT;Portugal;2;Aveiro;33;Vale de Cambra;PT.AV.VC;0;119;Concelho;Municipality;;;11900;11900;Interior;Nao capital;146.5123;0119
+182;PRT;Portugal;3;Azores;34;Angra do Heroísmo;PT.AC.AH;0;4301;Concelho;Municipality;'ɐ̃gɾɐ du eɾu'iʒmu;Angra;430100;430100;Litoral;Nao capital;239.1713;4301
+182;PRT;Portugal;3;Azores;35;Calheta (R.A.A.);PT.AC.CA;0;4501;Concelho;Municipality;;;450100;450100;Litoral;Nao capital;126.3382;4501
+182;PRT;Portugal;3;Azores;36;Corvo;PT.AC.CO;0;4901;Concelho;Municipality;;Korvu;490100;490100;Litoral;Nao capital;17.11519;4901
+182;PRT;Portugal;3;Azores;37;Horta;PT.AC.HO;0;4701;Concelho;Municipality;;;470100;470100;Litoral;Nao capital;173.0906;4701
+182;PRT;Portugal;3;Azores;38;"	
+Lagoa (R.A.A.)";PT.AC.LG;0;4201;Concelho;Municipality;;;420100;420100;Litoral;Nao capital;45.60819;4201
+182;PRT;Portugal;3;Azores;39;Lajes das Flores;PT.AC.LF;0;4801;Concelho;Municipality;;;480100;480100;Litoral;Nao capital;70.05914;4801
+182;PRT;Portugal;3;Azores;40;Lajes do Pico;PT.AC.LP;0;4601;Concelho;Municipality;;;460100;460100;Litoral;Nao capital;155.3813;4601
+182;PRT;Portugal;3;Azores;41;Madalena;PT.AC.MA;0;4602;Concelho;Municipality;;;460200;460200;Litoral;Nao capital;147.1727;4602
+182;PRT;Portugal;3;Azores;42;Nordeste;PT.AC.NO;0;4202;Concelho;Municipality;;;420200;420200;Litoral;Nao capital;101.4818;4202
+182;PRT;Portugal;3;Azores;43;Ponta Delgada;PT.AC.PD;0;4203;Concelho;Municipality;;;420300;420300;Litoral;Nao capital;233.0874;4203
+182;PRT;Portugal;3;Azores;44;Povoação;PT.AC.PC;0;4204;Concelho;Municipality;;;420400;420400;Litoral;Nao capital;106.4256;4204
+182;PRT;Portugal;3;Azores;45;Vila da Praia da Vitória;PT.AC.PV;0;4302;Concelho;Municipality;;;430200;430200;Litoral;Nao capital;161.3906;4302
+182;PRT;Portugal;3;Azores;46;Ribeira Grande;PT.AC.RG;0;4205;Concelho;Municipality;;;420500;420500;Litoral;Nao capital;180.2028;4205
+182;PRT;Portugal;3;Azores;47;São Roque do Pico;PT.AC.SP;0;4603;Concelho;Municipality;;;460300;460300;Litoral;Nao capital;142.4201;4603
+182;PRT;Portugal;3;Azores;48;Santa Cruz da Graciosa;PT.AC.SG;0;4401;Concelho;Municipality;;;440100;440100;Litoral;Nao capital;60.69151;4401
+182;PRT;Portugal;3;Azores;49;Santa Cruz das Flores;PT.AC.SF;0;4802;Concelho;Municipality;;;480200;480200;Litoral;Nao capital;70.92565;4802
+182;PRT;Portugal;3;Azores;50;Velas;PT.AC.VE;0;4502;Concelho;Municipality;;;450200;450200;Litoral;Nao capital;117.4420;4502
+182;PRT;Portugal;3;Azores;51;Vila do Porto;PT.AC.VP;0;4101;Concelho;Municipality;;;410100;410100;Litoral;Nao capital;96.89133;4101
+182;PRT;Portugal;3;Azores;52;Vila Franca do Campo;PT.AC.VC;0;4206;Concelho;Municipality;;;420600;420600;Litoral;Nao capital;77.98870;4206
+182;PRT;Portugal;4;Beja;53;Aljustrel;PT.BE.AJ;0;201;Concelho;Municipality;;;20100;20100;Interior;Nao capital;458.2883;0201
+182;PRT;Portugal;4;Beja;54;Almodôvar;PT.BE.AM;0;202;Concelho;Municipality;;;20200;20200;Interior;Nao capital;777.8619;0202
+182;PRT;Portugal;4;Beja;55;Alvito;PT.BE.AV;0;203;Concelho;Municipality;;;20300;20300;Interior;Nao capital;264.8201;0203
+182;PRT;Portugal;4;Beja;56;Barrancos;PT.BE.BA;0;204;Concelho;Municipality;;;20400;20400;Interior;Nao capital;168.3811;0204
+182;PRT;Portugal;4;Beja;57;Beja;PT.BE.BE;0;205;Concelho;Municipality;;;20500;20500;Interior;Capital de Distrito;1147.099;0205
+182;PRT;Portugal;4;Beja;58;Castro Verde;PT.BE.CV;0;206;Concelho;Municipality;;;20600;20600;Interior;Nao capital;569.3658;0206
+182;PRT;Portugal;4;Beja;59;Cuba;PT.BE.CU;0;207;Concelho;Municipality;;;20700;20700;Interior;Nao capital;172.0659;0207
+182;PRT;Portugal;4;Beja;60;Ferreira do Alentejo;PT.BE.FA;0;208;Concelho;Municipality;;;20800;20800;Interior;Nao capital;648.3739;0208
+182;PRT;Portugal;4;Beja;61;Mértola;PT.BE.ME;0;209;Concelho;Municipality;;;20900;20900;Interior;Nao capital;1292.841;0209
+182;PRT;Portugal;4;Beja;62;Moura;PT.BE.MO;0;210;Concelho;Municipality;;;21000;21000;Interior;Nao capital;958.2951;0210
+182;PRT;Portugal;4;Beja;63;Odemira;PT.BE.OD;0;211;Concelho;Municipality;;;21100;21100;Litoral;Nao capital;1720.533;0211
+182;PRT;Portugal;4;Beja;64;Ourique;PT.BE.OU;0;212;Concelho;Municipality;;;21200;21200;Interior;Nao capital;663.3789;0212
+182;PRT;Portugal;4;Beja;65;Serpa;PT.BE.SE;0;213;Concelho;Municipality;;;21300;21300;Interior;Nao capital;1105.543;0213
+182;PRT;Portugal;4;Beja;66;Vidigueira;PT.BE.VI;0;214;Concelho;Municipality;;;21400;21400;Interior;Nao capital;315.9451;0214
+182;PRT;Portugal;5;Braga;67;Amares;PT.BR.AM;0;301;Concelho;Municipality;;;30100;30100;Interior;Nao capital;81.95385;0301
+182;PRT;Portugal;5;Braga;68;Barcelos;PT.BR.BA;0;302;Concelho;Municipality;;;30200;30200;Interior;Nao capital;378.8898;0302
+182;PRT;Portugal;5;Braga;69;Braga;PT.BR.BR;0;303;Concelho;Municipality;;;30300;30300;Interior;Capital de Distrito;177.4177;0303
+182;PRT;Portugal;5;Braga;74;Guimarães;PT.BR.GU;0;308;Concelho;Municipality;;;30800;30800;Interior;Nao capital;247.0249;0308
+182;PRT;Portugal;5;Braga;70;Cabeceiras de Basto;PT.BR.CB;0;304;Concelho;Municipality;;;30400;30400;Interior;Nao capital;241.8217;0304
+182;PRT;Portugal;5;Braga;71;Celorico de Basto;PT.BR.CL;0;305;Concelho;Municipality;;;30500;30500;Interior;Nao capital;181.0707;0305
+182;PRT;Portugal;5;Braga;72;Esposende;PT.BR.ES;0;306;Concelho;Municipality;;;30600;30600;Litoral;Nao capital;93.33091;0306
+182;PRT;Portugal;5;Braga;73;Fafe;PT.BR.FA;0;307;Concelho;Municipality;;;30700;30700;Interior;Nao capital;219.0824;0307
+182;PRT;Portugal;5;Braga;74;Póvoa de Lanhoso;PT.BR.PL;0;309;Concelho;Municipality;;;30900;30900;Interior;Nao capital;132.5372;0309
+182;PRT;Portugal;5;Braga;75;Terras de Bouro;PT.BR.TB;0;310;Concelho;Municipality;;;31000;31000;Interior;Nao capital;277.4625;0310
+182;PRT;Portugal;5;Braga;76;Vieira do Minho;PT.BR.VM;0;311;Concelho;Municipality;;;31100;31100;Interior;Nao capital;218.4710;0311
+182;PRT;Portugal;5;Braga;77;Vila Nova de Famalicão;PT.BR.VF;0;312;Concelho;Municipality;;;31200;31200;Interior;Nao capital;201.6943;0312
+182;PRT;Portugal;5;Braga;78;Vila Verde;PT.BR.VV;0;313;Concelho;Municipality;;;31300;31300;Interior;Nao capital;228.6629;0313
+182;PRT;Portugal;5;Braga;79;Vizela;PT.BR.VZ;0;314;Concelho;Municipality;;;31400;31400;Interior;Nao capital;24.69837;0314
+182;PRT;Portugal;6;Bragança;80;Alfândega da Fé;PT.BA.AF;0;401;Concelho;Municipality;;;40100;40100;Interior;Nao capital;321.9128;0401
+182;PRT;Portugal;6;Bragança;81;Bragança;PT.BA.BR;0;402;Concelho;Municipality;;;40200;40200;Interior;Capital de Distrito;1173.180;0402
+182;PRT;Portugal;6;Bragança;82;Carrazeda de Ansiães;PT.BA.CA;0;403;Concelho;Municipality;;;40300;40300;Interior;Nao capital;279.2077;0403
+182;PRT;Portugal;6;Bragança;83;Freixo de Espada à Cinta;PT.BA.FE;0;404;Concelho;Municipality;;;40400;40400;Interior;Nao capital;244.1088;0404
+182;PRT;Portugal;6;Bragança;84;Macedo de Cavaleiros;PT.BA.MC;0;405;Concelho;Municipality;;;40500;40500;Interior;Nao capital;698.9654;0405
+182;PRT;Portugal;6;Bragança;85;Miranda do Douro;PT.BA.MD;0;406;Concelho;Municipality;;;40600;40600;Interior;Nao capital;486.9449;0406
+182;PRT;Portugal;6;Bragança;86;Mirandela;PT.BA.MI;0;407;Concelho;Municipality;;;40700;40700;Interior;Nao capital;658.8557;0407
+182;PRT;Portugal;6;Bragança;87;Mogadouro;PT.BA.MO;0;408;Concelho;Municipality;;;40800;40800;Interior;Nao capital;760.1626;0408
+182;PRT;Portugal;6;Bragança;88;Torre de Moncorvo;PT.BA.TM;0;409;Concelho;Municipality;;;40900;40900;Interior;Nao capital;531.4607;0409
+182;PRT;Portugal;6;Bragança;89;Vila Flor;PT.BA.VF;0;410;Concelho;Municipality;;;41000;41000;Interior;Nao capital;265.7677;0410
+182;PRT;Portugal;6;Bragança;90;Vimioso;PT.BA.VM;0;411;Concelho;Municipality;;;41100;41100;Interior;Nao capital;481.4214;0411
+182;PRT;Portugal;6;Bragança;91;Vinhais;PT.BA.VN;0;412;Concelho;Municipality;;;41200;41200;Interior;Nao capital;694.6237;0412
+182;PRT;Portugal;7;Castelo Branco;92;Belmonte;PT.CB.BE;0;501;Concelho;Municipality;;;50100;50100;Interior;Nao capital;118.7447;0501
+182;PRT;Portugal;7;Castelo Branco;93;Castelo Branco;PT.CB.CB;0;502;Concelho;Municipality;;;50200;50200;Interior;Capital de Distrito;1438.068;0502
+182;PRT;Portugal;7;Castelo Branco;94;Covilhã;PT.CB.CO;0;503;Concelho;Municipality;;;50300;50300;Interior;Nao capital;555.5650;0503
+182;PRT;Portugal;7;Castelo Branco;95;Fundão;PT.CB.FU;0;504;Concelho;Municipality;;;50400;50400;Interior;Nao capital;700.0608;0504
+182;PRT;Portugal;7;Castelo Branco;96;Idanha-a-Nova;PT.CB.IN;0;505;Concelho;Municipality;;;50500;50500;Interior;Nao capital;1416.050;0505
+182;PRT;Portugal;7;Castelo Branco;97;Oleiros;PT.CB.OL;0;506;Concelho;Municipality;;;50600;50600;Interior;Nao capital;471.0840;0506
+182;PRT;Portugal;7;Castelo Branco;98;Penamacor;PT.CB.PE;0;507;Concelho;Municipality;;;50700;50700;Interior;Nao capital;563.7015;0507
+182;PRT;Portugal;7;Castelo Branco;99;Proença-a-Nova;PT.CB.PN;0;508;Concelho;Municipality;;;50800;50800;Interior;Nao capital;395.3719;0508
+182;PRT;Portugal;7;Castelo Branco;100;Sertã;PT.CB.SE;0;509;Concelho;Municipality;;;50900;50900;Interior;Nao capital;446.7232;0509
+182;PRT;Portugal;7;Castelo Branco;101;Vila de Rei;PT.CB.VR;0;510;Concelho;Municipality;;;51000;51000;Interior;Nao capital;191.5440;0510
+182;PRT;Portugal;7;Castelo Branco;102;Vila Velha de Ródão;PT.CB.VV;0;511;Concelho;Municipality;;;51100;51100;Interior;Nao capital;329.8935;0511
+182;PRT;Portugal;8;Coimbra;103;Arganil;PT.CO.AR;0;601;Concelho;Municipality;;;60100;60100;Interior;Nao capital;332.8366;0601
+182;PRT;Portugal;8;Coimbra;104;Cantanhede;PT.CO.CA;0;602;Concelho;Municipality;;;60200;60200;Litoral;Nao capital;390.8634;0602
+182;PRT;Portugal;8;Coimbra;105;Coimbra;PT.CO.CO;0;603;Concelho;Municipality;;;60300;60300;Interior;Capital de Distrito;319.3942;0603
+182;PRT;Portugal;8;Coimbra;106;Condeixa-a-Nova;PT.CO.CN;0;604;Concelho;Municipality;;;60400;60400;Interior;Nao capital;138.6712;0604
+182;PRT;Portugal;8;Coimbra;107;Figueira da Foz;PT.CO.FF;0;605;Concelho;Municipality;;;60500;60500;Litoral;Nao capital;377.9809;0605
+182;PRT;Portugal;8;Coimbra;108;Góis;PT.CO.GO;0;606;Concelho;Municipality;;;60600;60600;Interior;Nao capital;263.3018;0606
+182;PRT;Portugal;8;Coimbra;109;Lousã;PT.CO.LO;0;607;Concelho;Municipality;;;60700;60700;Interior;Nao capital;138.3994;0607
+182;PRT;Portugal;8;Coimbra;110;Mira;PT.CO.MI;0;608;Concelho;Municipality;;;60800;60800;Litoral;Nao capital;124.0226;0608
+182;PRT;Portugal;8;Coimbra;111;Miranda do Corvo;PT.CO.MC;0;609;Concelho;Municipality;;;60900;60900;Interior;Nao capital;126.3770;0609
+182;PRT;Portugal;8;Coimbra;112;Montemor-o-Velho;PT.CO.MV;0;610;Concelho;Municipality;;;61000;61000;Interior;Nao capital;228.9514;0610
+182;PRT;Portugal;8;Coimbra;113;Oliveira do Hospital;PT.CO.OH;0;611;Concelho;Municipality;;;61100;61100;Interior;Nao capital;234.5136;0611
+182;PRT;Portugal;8;Coimbra;114;Pampilhosa da Serra;PT.CO.PS;0;612;Concelho;Municipality;;;61200;61200;Interior;Nao capital;396.4570;0612
+182;PRT;Portugal;8;Coimbra;115;Penacova;PT.CO.PC;0;613;Concelho;Municipality;;;61300;61300;Interior;Nao capital;216.7314;0613
+182;PRT;Portugal;8;Coimbra;116;Penela;PT.CO.PL;0;614;Concelho;Municipality;;;61400;61400;Interior;Nao capital;134.7984;0614
+182;PRT;Portugal;8;Coimbra;117;Soure;PT.CO.SO;0;615;Concelho;Municipality;;;61500;61500;Interior;Nao capital;265.0495;0615
+182;PRT;Portugal;8;Coimbra;118;Tábua;PT.CO.TA;0;616;Concelho;Municipality;;;61600;61600;Interior;Nao capital;199.7852;0616
+182;PRT;Portugal;8;Coimbra;119;Vila Nova de Poiares;PT.CO.VP;0;617;Concelho;Municipality;;;61700;61700;Interior;Nao capital;84.45272;0617
+182;PRT;Portugal;9;Faro;120;Albufeira;PT.FA.AB;0;801;Concelho;Municipality;;;80100;80100;Litoral;Nao capital;140.5715;0801
+182;PRT;Portugal;9;Faro;121;Alcoutim;PT.FA.AC;0;802;Concelho;Municipality;;;80200;80200;Interior;Nao capital;431.3822;0814
+182;PRT;Portugal;9;Faro;121;Tavira;PT.FA.TA;0;814;Concelho;Municipality;;;81400;81400;Litoral;Nao capital;746.3459;0802
+182;PRT;Portugal;9;Faro;122;Aljezur;PT.FA.AJ;0;803;Concelho;Municipality;;;80300;80300;Litoral;Nao capital;323.4831;0803
+182;PRT;Portugal;9;Faro;123;Castro Marim;PT.FA.CM;0;804;Concelho;Municipality;;;80400;80400;Litoral;Nao capital;300.6221;0804
+182;PRT;Portugal;9;Faro;124;Faro;PT.FA.FA;0;805;Concelho;Municipality;;;80500;80500;Litoral;Capital de Distrito;188.1276;0805
+182;PRT;Portugal;9;Faro;125;Lagoa;PT.FA.LA;0;806;Concelho;Municipality;;;80600;80600;Litoral;Nao capital;88.24923;0806
+182;PRT;Portugal;9;Faro;126;Lagos;PT.FA.LS;0;807;Concelho;Municipality;;;80700;80700;Litoral;Nao capital;212.0335;0807
+182;PRT;Portugal;9;Faro;127;Loulé;PT.FA.LO;0;808;Concelho;Municipality;;;80800;80800;Litoral;Nao capital;763.4752;0808
+182;PRT;Portugal;9;Faro;128;Monchique;PT.FA.MO;0;809;Concelho;Municipality;;;80900;80900;Interior;Nao capital;395.2338;0809
+182;PRT;Portugal;9;Faro;129;Olhão;PT.FA.OL;0;810;Concelho;Municipality;;;81000;81000;Litoral;Nao capital;125.1589;0810
+182;PRT;Portugal;9;Faro;130;Portimão;PT.FA.PO;0;811;Concelho;Municipality;;;81100;81100;Litoral;Nao capital;180.2165;0811
+182;PRT;Portugal;9;Faro;131;São Brás de Alportel;PT.FA.SB;0;812;Concelho;Municipality;;;81200;81200;Interior;Nao capital;153.3623;0812
+182;PRT;Portugal;9;Faro;132;Silves;PT.FA.SI;0;813;Concelho;Municipality;;;81300;81300;Litoral;Nao capital;679.9995;0813
+182;PRT;Portugal;9;Faro;133;Vila do Bispo;PT.FA.VB;0;815;Concelho;Municipality;;;81500;81500;Litoral;Nao capital;178.9740;0815
+182;PRT;Portugal;9;Faro;134;Vila Real de Santo António;PT.FA.VS;0;816;Concelho;Municipality;;;81600;81600;Litoral;Nao capital;58.42665;0816
+182;PRT;Portugal;10;Guarda;135;Aguiar da Beira;PT.GU.AB;0;901;Concelho;Municipality;;;90100;90100;Interior;Nao capital;206.7507;0901
+182;PRT;Portugal;10;Guarda;136;Almeida;PT.GU.AL;0;902;Concelho;Municipality;;;90200;90200;Interior;Nao capital;517.8457;0902
+182;PRT;Portugal;10;Guarda;137;Celorico da Beira;PT.GU.CB;0;903;Concelho;Municipality;;;90300;90300;Interior;Nao capital;247.1906;0903
+182;PRT;Portugal;10;Guarda;138;Figueira de Castelo Rodrigo;PT.GU.FC;0;904;Concelho;Municipality;;;90400;90400;Interior;Nao capital;508.4506;0904
+182;PRT;Portugal;10;Guarda;139;Fornos de Algodres;PT.GU.FA;0;905;Concelho;Municipality;;;90500;90500;Interior;Nao capital;131.4415;0905
+182;PRT;Portugal;10;Guarda;140;Gouveia;PT.GU.GO;0;906;Concelho;Municipality;;;90600;90600;Interior;Nao capital;300.5939;0906
+182;PRT;Portugal;10;Guarda;141;Guarda;PT.GU.GU;0;907;Concelho;Municipality;;;90700;90700;Interior;Capital de Distrito;711.9932;0907
+182;PRT;Portugal;10;Guarda;142;Mêda;PT.GU.ME;0;909;Concelho;Municipality;;;90900;90900;Interior;Nao capital;286.0102;0909
+182;PRT;Portugal;10;Guarda;143;Manteigas;PT.GU.MA;0;908;Concelho;Municipality;;;90800;90800;Interior;Nao capital;121.9677;0908
+182;PRT;Portugal;10;Guarda;144;Pinhel;PT.GU.PI;0;910;Concelho;Municipality;;;91000;91000;Interior;Nao capital;484.4297;0910
+182;PRT;Portugal;10;Guarda;145;Sabugal;PT.GU.SA;0;911;Concelho;Municipality;;;91100;91100;Interior;Nao capital;822.4963;0911
+182;PRT;Portugal;10;Guarda;146;Seia;PT.GU.SE;0;912;Concelho;Municipality;;;91200;91200;Interior;Nao capital;435.6729;0912
+182;PRT;Portugal;10;Guarda;147;Trancoso;PT.GU.TR;0;913;Concelho;Municipality;;;91300;91300;Interior;Nao capital;361.4837;0913
+182;PRT;Portugal;10;Guarda;148;Vila Nova de Foz Côa;PT.GU.VF;0;914;Concelho;Municipality;;;91400;91400;Interior;Nao capital;398.0870;0914
+182;PRT;Portugal;11;Leiria;149;Óbidos;PT.LE.OB;0;1012;Concelho;Municipality;;;101200;101200;Litoral;Nao capital;138.9696;1012
+182;PRT;Portugal;11;Leiria;150;Alcobaça;PT.LE.AC;0;1001;Concelho;Municipality;;;100100;100100;Litoral;Nao capital;407.7244;1001
+182;PRT;Portugal;11;Leiria;151;Alvaiázere;PT.LE.AV;0;1002;Concelho;Municipality;;;100200;100200;Interior;Nao capital;160.4748;1002
+182;PRT;Portugal;11;Leiria;152;Ansião;PT.LE.AN;0;1003;Concelho;Municipality;;;100300;100300;Interior;Nao capital;176.1462;1003
+182;PRT;Portugal;11;Leiria;153;Batalha;PT.LE.BA;0;1004;Concelho;Municipality;;;100400;100400;Interior;Nao capital;103.4042;1004
+182;PRT;Portugal;11;Leiria;154;Bombarral;PT.LE.BO;0;1005;Concelho;Municipality;;;100500;100500;Interior;Nao capital;91.26351;1005
+182;PRT;Portugal;11;Leiria;155;Caldas da Rainha;PT.LE.CR;0;1006;Concelho;Municipality;;;100600;100600;Litoral;Nao capital;251.6798;1006
+182;PRT;Portugal;11;Leiria;156;Castanheira de Pêra;PT.LE.CP;0;1007;Concelho;Municipality;;;100700;100700;Interior;Nao capital;66.77413;1007
+182;PRT;Portugal;11;Leiria;157;Figueiró dos Vinhos;PT.LE.FV;0;1008;Concelho;Municipality;;;100800;100800;Interior;Nao capital;173.4387;1008
+182;PRT;Portugal;11;Leiria;158;Leiria;PT.LE.LE;0;1009;Concelho;Municipality;;;100900;100900;Litoral;Capital de Distrito;564.4057;1009
+182;PRT;Portugal;11;Leiria;159;Marinha Grande;PT.LE.MG;0;1010;Concelho;Municipality;;;101000;101000;Litoral;Nao capital;187.1716;1010
+182;PRT;Portugal;11;Leiria;160;Nazaré;PT.LE.NA;0;1011;Concelho;Municipality;;;101100;101100;Litoral;Nao capital;81.29878;1011
+182;PRT;Portugal;11;Leiria;161;Pedrógão Grande;PT.LE.PG;0;1013;Concelho;Municipality;;;101300;101300;Interior;Nao capital;128.7471;1013
+182;PRT;Portugal;11;Leiria;162;Peniche;PT.LE.PN;0;1014;Concelho;Municipality;;;101400;101400;Litoral;Nao capital;77.77511;1014
+182;PRT;Portugal;11;Leiria;163;Pombal;PT.LE.PB;0;1015;Concelho;Municipality;;;101500;101500;Litoral;Nao capital;625.2241;1015
+182;PRT;Portugal;11;Leiria;164;Porto de Mós;PT.LE.PM;0;1016;Concelho;Municipality;;;101600;101600;Interior;Nao capital;261.8093;1016
+182;PRT;Portugal;12;Lisboa;165;Alenquer;PT.LI.AL;0;1101;Concelho;Municipality;;;110100;110100;Interior;Nao capital;304.1751;1101
+182;PRT;Portugal;12;Lisboa;166;Amadora;PT.LI.AM;0;1115;Concelho;Municipality;;;111500;111500;Interior;Nao capital;23.77584;1115
+182;PRT;Portugal;12;Lisboa;167;Arruda dos Vinhos;PT.LI.AV;0;1102;Concelho;Municipality;;;110200;110200;Interior;Nao capital;77.93600;1102
+182;PRT;Portugal;12;Lisboa;168;Azambuja;PT.LI.AZ;0;1103;Concelho;Municipality;;;110300;110300;Interior;Nao capital;262.6215;1103
+182;PRT;Portugal;12;Lisboa;169;Cadaval;PT.LI.CD;0;1104;Concelho;Municipality;;;110400;110400;Interior;Nao capital;174.8866;1104
+182;PRT;Portugal;12;Lisboa;170;Cascais;PT.LI.CS;0;1105;Concelho;Municipality;;;110500;110500;Litoral;Nao capital;97.32347;1105
+182;PRT;Portugal;12;Lisboa;171;Lisboa;PT.LI.LI;0;1106;Concelho;Municipality;;;110600;110600;Interior;Capital de Distrito;84.74441;1106
+182;PRT;Portugal;12;Lisboa;172;Loures;PT.LI.LS;0;1107;Concelho;Municipality;;;110700;110700;Interior;Nao capital;160.6991;1107
+182;PRT;Portugal;12;Lisboa;173;Lourinhã;PT.LI.LN;0;1108;Concelho;Municipality;;;110800;110800;Litoral;Nao capital;147.1462;1108
+182;PRT;Portugal;12;Lisboa;174;Mafra;PT.LI.MA;0;1109;Concelho;Municipality;;;110900;110900;Litoral;Nao capital;291.5237;1109
+182;PRT;Portugal;12;Lisboa;175;Odivelas;PT.LI.OD;0;1116;Concelho;Municipality;;;111600;111600;Interior;Nao capital;26.34021;1116
+182;PRT;Portugal;12;Lisboa;176;Oeiras;PT.LI.OE;0;1110;Concelho;Municipality;;;111000;111000;Interior;Nao capital;45.78768;1110
+182;PRT;Portugal;12;Lisboa;177;Sintra;PT.LI.SI;0;1111;Concelho;Municipality;;;111100;111100;Litoral;Nao capital;319.0805;1111
+182;PRT;Portugal;12;Lisboa;178;Sobral de Monte Agraço;PT.LI.SM;0;1112;Concelho;Municipality;;;111200;111200;Interior;Nao capital;52.08727;1112
+182;PRT;Portugal;12;Lisboa;179;Torres Vedras;PT.LI.TV;0;1113;Concelho;Municipality;;;111300;111300;Litoral;Nao capital;407.0529;1113
+182;PRT;Portugal;12;Lisboa;180;Vila Franca de Xira;PT.LI.VX;0;1114;Concelho;Municipality;;;111400;111400;Interior;Nao capital;285.9845;1114
+182;PRT;Portugal;13;Madeira;181;Câmara de Lobos;PT.MA.CL;0;3102;Concelho;Municipality;;;310200;310200;Litoral;Nao capital;52.13925;3102
+182;PRT;Portugal;13;Madeira;182;Calheta (R.A.M.);PT.MA.CT;0;3101;Concelho;Municipality;;;310100;310100;Litoral;Nao capital;111.4844;3101
+182;PRT;Portugal;13;Madeira;183;Funchal;PT.MA.FU;0;3103;Concelho;Municipality;;;310300;310300;Litoral;Nao capital;74.04177;3103
+182;PRT;Portugal;13;Madeira;184;Machico;PT.MA.MA;0;3104;Concelho;Municipality;;;310400;310400;Litoral;Nao capital;68.31401;3104
+182;PRT;Portugal;13;Madeira;185;Ponta do Sol;PT.MA.PD;0;3105;Concelho;Municipality;;;310500;310500;Litoral;Nao capital;46.17975;3105
+182;PRT;Portugal;13;Madeira;186;Porto Moniz;PT.MA.PM;0;3106;Concelho;Municipality;;;310600;310600;Litoral;Nao capital;82.90910;3106
+182;PRT;Portugal;13;Madeira;187;Porto Santo;PT.MA.PS;0;3201;Concelho;Municipality;;;320100;320100;Litoral;Nao capital;42.49481;3201
+182;PRT;Portugal;13;Madeira;188;Ribeira Brava;PT.MA.RB;0;3107;Concelho;Municipality;;;310700;310700;Litoral;Nao capital;65.38917;3107
+182;PRT;Portugal;13;Madeira;189;São Vicente;PT.MA.SV;0;3110;Concelho;Municipality;;;311000;311000;Litoral;Nao capital;78.80614;3110
+182;PRT;Portugal;13;Madeira;190;Santa Cruz;PT.MA.SC;0;3108;Concelho;Municipality;;;310800;310800;Litoral;Nao capital;81.50271;3108
+182;PRT;Portugal;13;Madeira;191;Santana;PT.MA.SA;0;3109;Concelho;Municipality;;;310900;310900;Litoral;Nao capital;95.54834;3109
+182;PRT;Portugal;14;Portalegre;192;Alter do Chão;PT.PA.AC;0;1201;Concelho;Municipality;;;120100;120100;Interior;Nao capital;361.9952;1201
+182;PRT;Portugal;14;Portalegre;193;Arronches;PT.PA.AR;0;1202;Concelho;Municipality;;;120200;120200;Interior;Nao capital;314.7035;1202
+182;PRT;Portugal;14;Portalegre;194;Avis;PT.PA.AV;0;1203;Concelho;Municipality;;;120300;120300;Interior;Nao capital;605.9442;1203
+182;PRT;Portugal;14;Portalegre;195;Campo Maior;PT.PA.CM;0;1204;Concelho;Municipality;;;120400;120400;Interior;Nao capital;247.1292;1204
+182;PRT;Portugal;14;Portalegre;196;Castelo de Vide;PT.PA.CV;0;1205;Concelho;Municipality;;;120500;120500;Interior;Nao capital;264.8728;1205
+182;PRT;Portugal;14;Portalegre;197;Crato;PT.PA.CR;0;1206;Concelho;Municipality;;;120600;120600;Interior;Nao capital;398.0140;1206
+182;PRT;Portugal;14;Portalegre;198;Elvas;PT.PA.EL;0;1207;Concelho;Municipality;;;120700;120700;Interior;Nao capital;631.0992;1207
+182;PRT;Portugal;14;Portalegre;199;Fronteira;PT.PA.FR;0;1208;Concelho;Municipality;;;120800;120800;Interior;Nao capital;248.6066;1208
+182;PRT;Portugal;14;Portalegre;200;Gavião;PT.PA.GA;0;1209;Concelho;Municipality;;;120900;120900;Interior;Nao capital;294.5884;1209
+182;PRT;Portugal;14;Portalegre;201;Marvão;PT.PA.MA;0;1210;Concelho;Municipality;;;121000;121000;Interior;Nao capital;154.8667;1210
+182;PRT;Portugal;14;Portalegre;202;Monforte;PT.PA.MO;0;1211;Concelho;Municipality;;;121100;121100;Interior;Nao capital;420.2165;1211
+182;PRT;Portugal;14;Portalegre;203;Nisa;PT.PA.NI;0;1212;Concelho;Municipality;;;121200;121200;Interior;Nao capital;575.7015;1212
+182;PRT;Portugal;14;Portalegre;204;Ponte de Sor;PT.PA.PS;0;1213;Concelho;Municipality;;;121300;121300;Interior;Nao capital;839.6968;1213
+182;PRT;Portugal;14;Portalegre;205;Portalegre;PT.PA.PA;0;1214;Concelho;Municipality;;;121400;121400;Interior;Capital de Distrito;447.0459;1214
+182;PRT;Portugal;14;Portalegre;206;Sousel;PT.PA.SO;0;1215;Concelho;Municipality;;;121500;121500;Interior;Nao capital;279.3560;1215
+182;PRT;Portugal;15;Porto;207;Amarante;PT.PO.AM;0;1301;Concelho;Municipality;;;130100;130100;Interior;Nao capital;301.4397;1301
+182;PRT;Portugal;15;Porto;208;Baião;PT.PO.BA;0;1302;Concelho;Municipality;;;130200;130200;Interior;Nao capital;174.5180;1302
+182;PRT;Portugal;15;Porto;209;Felgueiras;PT.PO.FE;0;1303;Concelho;Municipality;;;130300;130300;Interior;Nao capital;115.7379;1303
+182;PRT;Portugal;15;Porto;210;Gondomar;PT.PO.GO;0;1304;Concelho;Municipality;;;130400;130400;Interior;Nao capital;131.8609;1304
+182;PRT;Portugal;15;Porto;211;Lousada;PT.PO.LO;0;1305;Concelho;Municipality;;;130500;130500;Interior;Nao capital;95.97410;1305
+182;PRT;Portugal;15;Porto;212;Maia;PT.PO.MI;0;1306;Concelho;Municipality;;;130600;130600;Interior;Nao capital;83.13021;1306
+182;PRT;Portugal;15;Porto;213;Marco de Canaveses;PT.PO.MC;0;1307;Concelho;Municipality;;;130700;130700;Interior;Nao capital;201.8904;1307
+182;PRT;Portugal;15;Porto;214;Matosinhos;PT.PO.MT;0;1308;Concelho;Municipality;;;130800;130800;Litoral;Nao capital;61.45928;1308
+182;PRT;Portugal;15;Porto;215;Póvoa de Varzim;PT.PO.PV;0;1313;Concelho;Municipality;;;131300;131300;Litoral;Nao capital;81.33730;1313
+182;PRT;Portugal;15;Porto;216;Paços de Ferreira;PT.PO.PF;0;1309;Concelho;Municipality;;;130900;130900;Interior;Nao capital;70.99256;1309
+182;PRT;Portugal;15;Porto;217;Paredes;PT.PO.PA;0;1310;Concelho;Municipality;;;131000;131000;Interior;Nao capital;156.7557;1310
+182;PRT;Portugal;15;Porto;218;Penafiel;PT.PO.PE;0;1311;Concelho;Municipality;;;131100;131100;Interior;Nao capital;212.2431;1311
+182;PRT;Portugal;15;Porto;219;Porto;PT.PO.PO;0;1312;Concelho;Municipality;;;131200;131200;Litoral;Capital de Distrito;41.31476;1312
+182;PRT;Portugal;15;Porto;220;Santo Tirso;PT.PO.ST;0;1314;Concelho;Municipality;;;131400;131400;Interior;Nao capital;136.4945;1314
+182;PRT;Portugal;15;Porto;221;Trofa;PT.PO.TR;0;1318;Concelho;Municipality;;;131800;131800;Interior;Nao capital;71.87496;1318
+182;PRT;Portugal;15;Porto;222;Valongo;PT.PO.VA;0;1315;Concelho;Municipality;;;131500;131500;Interior;Nao capital;75.12311;1315
+182;PRT;Portugal;15;Porto;223;Vila do Conde;PT.PO.VC;0;1316;Concelho;Municipality;;;131600;131600;Litoral;Nao capital;148.3880;1316
+182;PRT;Portugal;15;Porto;224;Vila Nova de Gaia;PT.PO.VG;0;1317;Concelho;Municipality;;;131700;131700;Litoral;Nao capital;169.0205;1317
+182;PRT;Portugal;16;Santarém;225;Abrantes;PT.SA.AB;0;1401;Concelho;Municipality;;;140100;140100;Interior;Nao capital;714.7121;1401
+182;PRT;Portugal;16;Santarém;226;Alcanena;PT.SA.AC;0;1402;Concelho;Municipality;;;140200;140200;Interior;Nao capital;127.3265;1402
+182;PRT;Portugal;16;Santarém;227;Almeirim;PT.SA.AM;0;1403;Concelho;Municipality;;;140300;140300;Interior;Nao capital;222.0794;1403
+182;PRT;Portugal;16;Santarém;228;Alpiarça;PT.SA.AP;0;1404;Concelho;Municipality;;;140400;140400;Interior;Nao capital;95.36473;1404
+182;PRT;Portugal;16;Santarém;229;Benavente;PT.SA.BE;0;1405;Concelho;Municipality;;;140500;140500;Interior;Nao capital;519.8817;1405
+182;PRT;Portugal;16;Santarém;230;Cartaxo;PT.SA.CA;0;1406;Concelho;Municipality;;;140600;140600;Interior;Nao capital;158.1677;1406
+182;PRT;Portugal;16;Santarém;231;Chamusca;PT.SA.CH;0;1407;Concelho;Municipality;;;140700;140700;Interior;Nao capital;745.9814;1407
+182;PRT;Portugal;16;Santarém;232;Constância;PT.SA.CN;0;1408;Concelho;Municipality;;;140800;140800;Interior;Nao capital;80.37170;1408
+182;PRT;Portugal;16;Santarém;233;Coruche;PT.SA.CR;0;1409;Concelho;Municipality;;;140900;140900;Interior;Nao capital;1115.691;1409
+182;PRT;Portugal;16;Santarém;234;Entroncamento;PT.SA.EN;0;1410;Concelho;Municipality;;;141000;141000;Interior;Nao capital;13.72908;1410
+182;PRT;Portugal;16;Santarém;235;Ferreira do Zêzere;PT.SA.FZ;0;1411;Concelho;Municipality;;;141100;141100;Interior;Nao capital;190.3838;1411
+182;PRT;Portugal;16;Santarém;236;Golegã;PT.SA.GO;0;1412;Concelho;Municipality;;;141200;141200;Interior;Nao capital;76.61679;1412
+182;PRT;Portugal;16;Santarém;237;Mação;PT.SA.MA;0;1413;Concelho;Municipality;;;141300;141300;Interior;Nao capital;400.0036;1413
+182;PRT;Portugal;16;Santarém;238;Ourém;PT.SA.OU;0;1421;Concelho;Municipality;;;142100;142100;Interior;Nao capital;416.5432;1421
+182;PRT;Portugal;16;Santarém;239;Rio Maior;PT.SA.RM;0;1414;Concelho;Municipality;;;141400;141400;Interior;Nao capital;272.7567;1414
+182;PRT;Portugal;16;Santarém;240;Salvaterra de Magos;PT.SA.SM;0;1415;Concelho;Municipality;;;141500;141500;Interior;Nao capital;243.9155;1415
+182;PRT;Portugal;16;Santarém;241;Santarém;PT.SA.SA;0;1416;Concelho;Municipality;;;141600;141600;Interior;Capital de Distrito;560.1998;1416
+182;PRT;Portugal;16;Santarém;242;Sardoal;PT.SA.SD;0;1417;Concelho;Municipality;;;141700;141700;Interior;Nao capital;92.14649;1417
+182;PRT;Portugal;16;Santarém;243;Tomar;PT.SA.TM;0;1418;Concelho;Municipality;;;141800;141800;Interior;Nao capital;351.2013;1418
+182;PRT;Portugal;16;Santarém;244;Torres Novas;PT.SA.TN;0;1419;Concelho;Municipality;;;141900;141900;Interior;Nao capital;269.9873;1419
+182;PRT;Portugal;16;Santarém;245;Vila Nova da Barquinha;PT.SA.VB;0;1420;Concelho;Municipality;;;142000;142000;Interior;Nao capital;49.55793;1420
+182;PRT;Portugal;17;Setúbal;246;Alcácer do Sal;PT.SE.AS;0;1501;Concelho;Municipality;;;150100;150100;Interior;Nao capital;1444.062;1501
+182;PRT;Portugal;17;Setúbal;247;Alcochete;PT.SE.AC;0;1502;Concelho;Municipality;;;150200;150200;Interior;Nao capital;94.67392;1502
+182;PRT;Portugal;17;Setúbal;248;Almada;PT.SE.AM;0;1503;Concelho;Municipality;;;150300;150300;Litoral;Nao capital;70.19046;1503
+182;PRT;Portugal;17;Setúbal;249;Barreiro;PT.SE.BA;0;1504;Concelho;Municipality;;;150400;150400;Interior;Nao capital;32.12855;1504
+182;PRT;Portugal;17;Setúbal;250;Grândola;PT.SE.GR;0;1505;Concelho;Municipality;;;150500;150500;Litoral;Nao capital;804.2680;1505
+182;PRT;Portugal;17;Setúbal;251;Moita;PT.SE.MT;0;1506;Concelho;Municipality;;;150600;150600;Interior;Nao capital;44.69881;1506
+182;PRT;Portugal;17;Setúbal;252;Montijo;PT.SE.MN;0;1507;Concelho;Municipality;;;150700;150700;Interior;Nao capital;344.0789;1507
+182;PRT;Portugal;17;Setúbal;253;Palmela;PT.SE.PA;0;1508;Concelho;Municipality;;;150800;150800;Interior;Nao capital;460.8662;1508
+182;PRT;Portugal;17;Setúbal;254;Santiago do Cacém;PT.SE.SC;0;1509;Concelho;Municipality;;;150900;150900;Litoral;Nao capital;1059.397;1509
+182;PRT;Portugal;17;Setúbal;255;Seixal;PT.SE.SX;0;1510;Concelho;Municipality;;;151000;151000;Interior;Nao capital;89.00353;1510
+182;PRT;Portugal;17;Setúbal;256;Sesimbra;PT.SE.SS;0;1511;Concelho;Municipality;;;151100;151100;Litoral;Nao capital;193.0967;1511
+182;PRT;Portugal;17;Setúbal;257;Setúbal;PT.SE.SE;0;1512;Concelho;Municipality;;;151200;151200;Litoral;Capital de Distrito;182.9207;1512
+182;PRT;Portugal;17;Setúbal;258;Sines;PT.SE.SI;0;1513;Concelho;Municipality;;;151300;151300;Litoral;Nao capital;201.5690;1513
+182;PRT;Portugal;18;Viana do Castelo;259;Arcos de Valdevez;PT.VC.AV;0;1601;Concelho;Municipality;;;160100;160100;Interior;Nao capital;447.5954;1601
+182;PRT;Portugal;18;Viana do Castelo;260;Caminha;PT.VC.CA;0;1602;Concelho;Municipality;;;160200;160200;Litoral;Nao capital;136.3465;1602
+182;PRT;Portugal;18;Viana do Castelo;261;Melgaço;PT.VC.ME;0;1603;Concelho;Municipality;;;160300;160300;Interior;Nao capital;238.2487;1603
+182;PRT;Portugal;18;Viana do Castelo;262;Monção;PT.VC.MO;0;1604;Concelho;Municipality;;;160400;160400;Interior;Nao capital;211.3078;1604
+182;PRT;Portugal;18;Viana do Castelo;263;Paredes de Coura;PT.VC.PC;0;1605;Concelho;Municipality;;;160500;160500;Interior;Nao capital;138.1827;1605
+182;PRT;Portugal;18;Viana do Castelo;264;Ponte da Barca;PT.VC.PB;0;1606;Concelho;Municipality;;;160600;160600;Interior;Nao capital;182.1128;1606
+182;PRT;Portugal;18;Viana do Castelo;265;Ponte de Lima;PT.VC.PL;0;1607;Concelho;Municipality;;;160700;160700;Interior;Nao capital;320.2457;1607
+182;PRT;Portugal;18;Viana do Castelo;266;Valença;PT.VC.VA;0;1608;Concelho;Municipality;;;160800;160800;Interior;Nao capital;117.1256;1608
+182;PRT;Portugal;18;Viana do Castelo;267;Viana do Castelo;PT.VC.VC;0;1609;Concelho;Municipality;;;160900;160900;Litoral;Capital de Distrito;318.4001;1609
+182;PRT;Portugal;18;Viana do Castelo;268;Vila Nova de Cerveira;PT.VC.VN;0;1610;Concelho;Municipality;;;161000;161000;Interior;Nao capital;108.4611;1610
+182;PRT;Portugal;19;Vila Real;269;Alijó;PT.VR.AL;0;1701;Concelho;Municipality;;;170100;170100;Interior;Nao capital;297.5779;1701
+182;PRT;Portugal;19;Vila Real;270;Boticas;PT.VR.BO;0;1702;Concelho;Municipality;;;170200;170200;Interior;Nao capital;321.9490;1702
+182;PRT;Portugal;19;Vila Real;271;Chaves;PT.VR.CH;0;1703;Concelho;Municipality;;;170300;170300;Interior;Nao capital;591.1800;1703
+182;PRT;Portugal;19;Vila Real;272;Mesão Frio;PT.VR.MF;0;1704;Concelho;Municipality;;;170400;170400;Interior;Nao capital;26.65414;1704
+182;PRT;Portugal;19;Vila Real;273;Mondim de Basto;PT.VR.MB;0;1705;Concelho;Municipality;;;170500;170500;Interior;Nao capital;172.0743;1705
+182;PRT;Portugal;19;Vila Real;274;Montalegre;PT.VR.MT;0;1706;Concelho;Municipality;;;170600;170600;Interior;Nao capital;805.4431;1706
+182;PRT;Portugal;19;Vila Real;275;Murça;PT.VR.MU;0;1707;Concelho;Municipality;;;170700;170700;Interior;Nao capital;189.3552;1707
+182;PRT;Portugal;19;Vila Real;276;Peso da Régua;PT.VR.PR;0;1708;Concelho;Municipality;;;170800;170800;Interior;Nao capital;94.86163;1708
+182;PRT;Portugal;19;Vila Real;277;Ribeira de Pena;PT.VR.RP;0;1709;Concelho;Municipality;;;170900;170900;Interior;Nao capital;217.4563;1709
+182;PRT;Portugal;19;Vila Real;278;Sabrosa;PT.VR.SA;0;1710;Concelho;Municipality;;;171000;171000;Interior;Nao capital;156.9192;1710
+182;PRT;Portugal;19;Vila Real;279;Santa Marta de Penaguião;PT.VR.SM;0;1711;Concelho;Municipality;;;171100;171100;Interior;Nao capital;69.30296;1711
+182;PRT;Portugal;19;Vila Real;280;Valpaços;PT.VR.VA;0;1712;Concelho;Municipality;;;171200;171200;Interior;Nao capital;548.6816;1712
+182;PRT;Portugal;19;Vila Real;281;Vila Pouca de Aguiar;PT.VR.VP;0;1713;Concelho;Municipality;;;171300;171300;Interior;Nao capital;437.0473;1713
+182;PRT;Portugal;19;Vila Real;282;Vila Real;PT.VR.VR;0;1714;Concelho;Municipality;;;171400;171400;Interior;Capital de Distrito;378.7831;1714
+182;PRT;Portugal;20;Viseu;283;Armamar;PT.VI.AR;0;1801;Concelho;Municipality;;;180100;180100;Interior;Nao capital;117.2362;1801
+182;PRT;Portugal;20;Viseu;284;Carregal do Sal;PT.VI.CS;0;1802;Concelho;Municipality;;;180200;180200;Interior;Nao capital;116.8914;1802
+182;PRT;Portugal;20;Viseu;285;Castro Daire;PT.VI.CD;0;1803;Concelho;Municipality;;;180300;180300;Interior;Nao capital;379.0532;1803
+182;PRT;Portugal;20;Viseu;286;Cinfães;PT.VI.CI;0;1804;Concelho;Municipality;;;180400;180400;Interior;Nao capital;239.2886;1804
+182;PRT;Portugal;20;Viseu;287;Lamego;PT.VI.LA;0;1805;Concelho;Municipality;;;180500;180500;Interior;Nao capital;165.3862;1805
+182;PRT;Portugal;20;Viseu;288;Mangualde;PT.VI.MA;0;1806;Concelho;Municipality;;;180600;180600;Interior;Nao capital;219.2489;1806
+182;PRT;Portugal;20;Viseu;289;Moimenta da Beira;PT.VI.MB;0;1807;Concelho;Municipality;;;180700;180700;Interior;Nao capital;219.9592;1807
+182;PRT;Portugal;20;Viseu;290;Mortágua;PT.VI.MR;0;1808;Concelho;Municipality;;;180800;180800;Interior;Nao capital;251.1774;1808
+182;PRT;Portugal;20;Viseu;291;Nelas;PT.VI.NE;0;1809;Concelho;Municipality;;;180900;180900;Interior;Nao capital;125.7128;1809
+182;PRT;Portugal;20;Viseu;292;Oliveira de Frades;PT.VI.OF;0;1810;Concelho;Municipality;;;181000;181000;Interior;Nao capital;145.3460;1810
+182;PRT;Portugal;20;Viseu;293;Penalva do Castelo;PT.VI.PC;0;1811;Concelho;Municipality;;;181100;181100;Interior;Nao capital;134.3338;1811
+182;PRT;Portugal;20;Viseu;294;Penedono;PT.VI.PE;0;1812;Concelho;Municipality;;;181200;181200;Interior;Nao capital;133.6950;1812
+182;PRT;Portugal;20;Viseu;295;Resende;PT.VI.RE;0;1813;Concelho;Municipality;;;181300;181300;Interior;Nao capital;123.3502;1813
+182;PRT;Portugal;20;Viseu;296;Sátão;PT.VI.ST;0;1817;Concelho;Municipality;;;181700;181700;Interior;Nao capital;201.9337;1817
+182;PRT;Portugal;20;Viseu;297;São João da Pesqueira;PT.VI.SJ;0;1815;Concelho;Municipality;;;181500;181500;Interior;Nao capital;266.0857;1815
+182;PRT;Portugal;20;Viseu;298;São Pedro do Sul;PT.VI.SP;0;1816;Concelho;Municipality;;;181600;181600;Interior;Nao capital;348.9507;1816
+182;PRT;Portugal;20;Viseu;299;Santa Comba Dão;PT.VI.SC;0;1814;Concelho;Municipality;;;181400;181400;Interior;Nao capital;111.9479;1814
+182;PRT;Portugal;20;Viseu;300;Sernancelhe;PT.VI.SE;0;1818;Concelho;Municipality;;;181800;181800;Interior;Nao capital;228.5963;1818
+182;PRT;Portugal;20;Viseu;301;Tabuaço;PT.VI.TB;0;1819;Concelho;Municipality;;;181900;181900;Interior;Nao capital;133.8494;1819
+182;PRT;Portugal;20;Viseu;302;Tarouca;PT.VI.TR;0;1820;Concelho;Municipality;;;182000;182000;Interior;Nao capital;100.0811;1820
+182;PRT;Portugal;20;Viseu;303;Tondela;PT.VI.TO;0;1821;Concelho;Municipality;;;182100;182100;Interior;Nao capital;371.2171;1821
+182;PRT;Portugal;20;Viseu;304;Vila Nova de Paiva;PT.VI.VP;0;1822;Concelho;Municipality;;;182200;182200;Interior;Nao capital;175.5289;1822
+182;PRT;Portugal;20;Viseu;305;Viseu;PT.VI.VS;0;1823;Concelho;Municipality;;;182300;182300;Interior;Capital de Distrito;507.0970;1823
+182;PRT;Portugal;20;Viseu;306;Vouzela;PT.VI.VO;0;1824;Concelho;Municipality;;;182400;182400;Interior;Nao capital;193.6946;1824
