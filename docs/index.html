@@ -119,11 +119,6 @@
     display:block; width:100%;
     height:clamp(480px,72vh,760px); border:0; background:var(--paper-2);
   }
-  /* cantos de carta — pequenos ticks nos cantos do quadro */
-  .frame::before,.frame::after{
-    content:""; position:absolute; width:14px; height:14px; pointer-events:none;
-    border-color:var(--accent); z-index:2;
-  }
   .frame::before{ top:8px; left:8px; border-top:1.5px solid; border-left:1.5px solid; }
   .frame::after{ bottom:8px; right:8px; border-bottom:1.5px solid; border-right:1.5px solid; }
 
@@ -163,7 +158,7 @@
 
 <header>
   <div class="wrap">
-    <p class="eyebrow">Aprendizagem estatística não supervisionada · ISCTE-IUL</p>
+    <p class="eyebrow">Aprendizagem Estatística Não Supervisionada · ISCTE-IUL</p>
     <h1>Clusters de competitividade turística de Portugal</h1>
     <p class="lede">
       Análise dos municípios portugueses por <b>componentes principais</b> (3 componentes
@@ -225,13 +220,6 @@
     <div class="frame">
       <iframe src="kmeans.html" title="Gráfico interativo K-means — 4 clusters" loading="lazy"></iframe>
     </div>
-    <div class="legend" aria-hidden="true">
-      <span class="lab">Clusters</span>
-      <span class="item"><span class="dot" style="background:var(--c1)"></span>Cluster 1</span>
-      <span class="item"><span class="dot" style="background:var(--c2)"></span>Cluster 2</span>
-      <span class="item"><span class="dot" style="background:var(--c3)"></span>Cluster 3</span>
-      <span class="item"><span class="dot" style="background:var(--c4)"></span>Cluster 4</span>
-    </div>
   </section>
 
   <!-- 03 — Mapa -->
@@ -265,7 +253,7 @@
       <a href="https://github.com/rafaeldrrmachado/AENS_portugal_tourism_clusters/blob/main/report.pdf">Relatório (PDF)</a>
       <a href="https://github.com/rafaeldrrmachado">Autor</a>
     </div>
-    <div class="sig">Rafael Machado · PCA + K-means · dados INE · fronteiras GADM</div>
+    <div class="sig">Rafael Machado, Afonso Dias, João Maurício e Vasco Veríssimo · PCA + K-means · dados INE · fronteiras GADM</div>
   </div>
 </footer>
 
