@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Clusters de Competitividade Turística — Portugal</title>
+<meta name="description" content="PCA e clustering K-means (k=4) da competitividade turística dos municípios portugueses.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    /* Atlas / carta náutica — chrome neutro, clusters em Set2 */
+    --ink:        #14202B;   /* azul atlântico quase-preto */
+    --ink-soft:   #3C4C57;
+    --paper:      #EDF0F1;   /* papel frio oceânico */
+    --paper-2:    #F6F8F8;
+    --line:       #C9D2D4;   /* traço de hairline */
+    --accent:     #0B6E78;   /* teal náutico — UI, distinto dos pastéis */
+    /* paleta de clusters = RColorBrewer Set2 (igual ao R) */
+    --c1: #66C2A5; --c2: #FC8D62; --c3: #8DA0CB; --c4: #E78AC3;
+    --maxw: 1180px;
+  }
+  *{ box-sizing:border-box; }
+  html{ -webkit-text-size-adjust:100%; }
+  body{
+    margin:0; background:var(--paper); color:var(--ink);
+    font-family:"Inter",system-ui,sans-serif;
+    line-height:1.5; -webkit-font-smoothing:antialiased;
+  }
+  a{ color:var(--accent); text-decoration:none; }
+  a:hover{ text-decoration:underline; }
+  :focus-visible{ outline:2px solid var(--accent); outline-offset:3px; }
+
+  .wrap{ max-width:var(--maxw); margin:0 auto; padding:0 clamp(18px,4vw,40px); }
+
+  /* ---------- HERO ---------- */
+  header{
+    border-bottom:1px solid var(--line);
+    background:
+      linear-gradient(var(--paper),var(--paper));
+    padding:clamp(34px,6vw,68px) 0 0;
+  }
+  .eyebrow{
+    font-family:"IBM Plex Mono",monospace; font-size:.72rem; letter-spacing:.22em;
+    text-transform:uppercase; color:var(--accent); margin:0 0 18px;
+  }
+  h1{
+    font-family:"Space Grotesk",sans-serif; font-weight:600;
+    font-size:clamp(2rem,5.2vw,3.6rem); line-height:1.04;
+    letter-spacing:-.02em; margin:0 0 18px; max-width:16ch;
+  }
+  .lede{
+    font-size:clamp(1rem,1.6vw,1.18rem); color:var(--ink-soft);
+    max-width:62ch; margin:0 0 28px;
+  }
+  .lede b{ color:var(--ink); font-weight:600; }
+
+  /* régua de coordenadas — assinatura cartográfica */
+  .ruler{
+    display:flex; gap:0; border-top:1px solid var(--line);
+    font-family:"IBM Plex Mono",monospace; font-size:.66rem;
+    color:var(--ink-soft); letter-spacing:.04em;
+  }
+  .ruler span{
+    flex:1; padding:9px 0 11px; position:relative;
+  }
+  .ruler span::before{
+    content:""; position:absolute; top:-1px; left:0; width:1px; height:6px;
+    background:var(--line);
+  }
+
+  /* ---------- TABS ---------- */
+  nav.tabs{
+    position:sticky; top:0; z-index:5;
+    background:rgba(237,240,241,.86); backdrop-filter:blur(8px);
+    border-bottom:1px solid var(--line);
+  }
+  .tablist{ display:flex; gap:4px; max-width:var(--maxw); margin:0 auto;
+    padding:0 clamp(18px,4vw,40px); flex-wrap:wrap; }
+  .tab{
+    appearance:none; border:0; background:none; cursor:pointer;
+    font-family:"Space Grotesk",sans-serif; font-weight:500; font-size:.98rem;
+    color:var(--ink-soft); padding:18px 16px 16px; position:relative;
+    letter-spacing:-.01em; transition:color .18s ease;
+  }
+  .tab .idx{ font-family:"IBM Plex Mono",monospace; font-size:.7rem;
+    color:var(--accent); margin-right:7px; }
+  .tab:hover{ color:var(--ink); }
+  .tab[aria-selected="true"]{ color:var(--ink); }
+  .tab[aria-selected="true"]::after{
+    content:""; position:absolute; left:12px; right:12px; bottom:-1px; height:2px;
+    background:var(--accent);
+  }
+
+  /* ---------- PANELS ---------- */
+  main{ padding:clamp(26px,4vw,44px) 0 8px; }
+  .panel[hidden]{ display:none; }
+  .panel-head{
+    display:flex; align-items:baseline; justify-content:space-between;
+    gap:16px; flex-wrap:wrap; margin-bottom:14px;
+  }
+  .panel-head h2{
+    font-family:"Space Grotesk",sans-serif; font-weight:600;
+    font-size:clamp(1.15rem,2.2vw,1.5rem); letter-spacing:-.015em; margin:0;
+  }
+  .panel-head .meta{
+    font-family:"IBM Plex Mono",monospace; font-size:.72rem; color:var(--ink-soft);
+    letter-spacing:.03em;
+  }
+  .panel p.note{ margin:0 0 16px; color:var(--ink-soft); max-width:70ch; font-size:.95rem; }
+
+  .frame{
+    position:relative; border:1px solid var(--line); border-radius:2px;
+    background:var(--paper-2); overflow:hidden;
+    box-shadow:0 1px 0 rgba(20,32,43,.04), 0 18px 40px -28px rgba(20,32,43,.5);
+  }
+  .frame iframe{
+    display:block; width:100%;
+    height:clamp(480px,72vh,760px); border:0; background:var(--paper-2);
+  }
+  /* cantos de carta — pequenos ticks nos cantos do quadro */
+  .frame::before,.frame::after{
+    content:""; position:absolute; width:14px; height:14px; pointer-events:none;
+    border-color:var(--accent); z-index:2;
+  }
+  .frame::before{ top:8px; left:8px; border-top:1.5px solid; border-left:1.5px solid; }
+  .frame::after{ bottom:8px; right:8px; border-bottom:1.5px solid; border-right:1.5px solid; }
+
+  /* ---------- LEGENDA DE CLUSTERS ---------- */
+  .legend{
+    display:flex; gap:10px 22px; flex-wrap:wrap; align-items:center;
+    margin:18px 0 6px; font-size:.86rem;
+  }
+  .legend .lab{ font-family:"IBM Plex Mono",monospace; font-size:.7rem;
+    letter-spacing:.14em; text-transform:uppercase; color:var(--ink-soft);
+    margin-right:2px; }
+  .legend .item{ display:inline-flex; align-items:center; gap:8px; }
+  .legend .dot{ width:13px; height:13px; border-radius:3px; flex:none;
+    box-shadow:0 0 0 1px rgba(20,32,43,.12) inset; }
+
+  /* ---------- FOOTER ---------- */
+  footer{
+    border-top:1px solid var(--line); margin-top:42px;
+    padding:30px 0 48px; color:var(--ink-soft); font-size:.86rem;
+  }
+  .foot{ display:flex; gap:20px 28px; flex-wrap:wrap; align-items:center;
+    justify-content:space-between; }
+  .foot .links{ display:flex; gap:22px; flex-wrap:wrap; }
+  .foot .sig{ font-family:"IBM Plex Mono",monospace; font-size:.72rem;
+    letter-spacing:.04em; }
+
+  @media (max-width:560px){
+    .ruler span:nth-child(n+5){ display:none; }
+    .tab{ padding:14px 11px 12px; font-size:.9rem; }
+  }
+  @media (prefers-reduced-motion:reduce){
+    *{ transition:none !important; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <p class="eyebrow">Aprendizagem estatística não supervisionada · ISCTE-IUL</p>
+    <h1>Clusters de competitividade turística de Portugal</h1>
+    <p class="lede">
+      Análise dos municípios portugueses por <b>componentes principais</b> (3 componentes
+      retidas) e segmentação por <b>K-means em 4 clusters</b> sobre o espaço de scores.
+      Três vistas interativas: a estrutura do PCA, a solução de clusters e a sua
+      distribuição no território.
+    </p>
+  </div>
+  <div class="wrap">
+    <div class="ruler" aria-hidden="true">
+      <span>9.5°W</span><span>8.5°W</span><span>7.5°W</span><span>6.5°W</span>
+      <span>308 municípios</span><span>34 variáveis</span><span>PC1·PC2·PC3</span><span>k = 4</span>
+    </div>
+  </div>
+</header>
+
+<nav class="tabs" aria-label="Vistas da análise">
+  <div class="tablist" role="tablist">
+    <button class="tab" id="tab-pca" role="tab" aria-controls="panel-pca" aria-selected="true">
+      <span class="idx">01</span>PCA · estrutura
+    </button>
+    <button class="tab" id="tab-km" role="tab" aria-controls="panel-km" aria-selected="false" tabindex="-1">
+      <span class="idx">02</span>K-means · k = 4
+    </button>
+    <button class="tab" id="tab-map" role="tab" aria-controls="panel-map" aria-selected="false" tabindex="-1">
+      <span class="idx">03</span>Mapa · clusters
+    </button>
+  </div>
+</nav>
+
+<main class="wrap">
+
+  <!-- 01 — PCA -->
+  <section class="panel" id="panel-pca" role="tabpanel" aria-labelledby="tab-pca" tabindex="0">
+    <div class="panel-head">
+      <h2>Solução PCA — 3 componentes principais</h2>
+      <span class="meta">scatter 3D · roda, faz zoom, passa o rato</span>
+    </div>
+    <p class="note">
+      Cada ponto é um município no espaço das três componentes retidas:
+      PC1 (dimensão e capacidade económico-turística), PC2 (intensidade turística e
+      vocação balnear) e PC3 (perfil socioeconómico complementar).
+    </p>
+    <div class="frame">
+      <iframe src="pca.html" title="Gráfico interativo PCA — 3 componentes" loading="lazy"></iframe>
+    </div>
+  </section>
+
+  <!-- 02 — K-means -->
+  <section class="panel" id="panel-km" role="tabpanel" aria-labelledby="tab-km" tabindex="0" hidden>
+    <div class="panel-head">
+      <h2>Solução K-means — 4 clusters</h2>
+      <span class="meta">scatter 3D · cor = cluster</span>
+    </div>
+    <p class="note">
+      Os mesmos scores, agora coloridos pela atribuição do K-means (k = 4) sobre as
+      componentes padronizadas. Isola um grupo clicando na legenda do gráfico.
+    </p>
+    <div class="frame">
+      <iframe src="kmeans.html" title="Gráfico interativo K-means — 4 clusters" loading="lazy"></iframe>
+    </div>
+    <div class="legend" aria-hidden="true">
+      <span class="lab">Clusters</span>
+      <span class="item"><span class="dot" style="background:var(--c1)"></span>Cluster 1</span>
+      <span class="item"><span class="dot" style="background:var(--c2)"></span>Cluster 2</span>
+      <span class="item"><span class="dot" style="background:var(--c3)"></span>Cluster 3</span>
+      <span class="item"><span class="dot" style="background:var(--c4)"></span>Cluster 4</span>
+    </div>
+  </section>
+
+  <!-- 03 — Mapa -->
+  <section class="panel" id="panel-map" role="tabpanel" aria-labelledby="tab-map" tabindex="0" hidden>
+    <div class="panel-head">
+      <h2>Mapa de clusters — k = 4</h2>
+      <span class="meta">leaflet · arrasta até às ilhas</span>
+    </div>
+    <p class="note">
+      Distribuição territorial dos 4 clusters por município. Ao contrário dos mapas
+      estáticos, podes navegar para a Madeira e os Açores com zoom e arrasto.
+    </p>
+    <div class="frame">
+      <iframe src="mapa.html" title="Mapa interativo de clusters K-means" loading="lazy"></iframe>
+    </div>
+    <div class="legend" aria-hidden="true">
+      <span class="lab">Clusters</span>
+      <span class="item"><span class="dot" style="background:var(--c1)"></span>Cluster 1</span>
+      <span class="item"><span class="dot" style="background:var(--c2)"></span>Cluster 2</span>
+      <span class="item"><span class="dot" style="background:var(--c3)"></span>Cluster 3</span>
+      <span class="item"><span class="dot" style="background:var(--c4)"></span>Cluster 4</span>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <div class="links">
+      <a href="https://github.com/rafaeldrrmachado/AENS_portugal_tourism_clusters">Repositório</a>
+      <a href="https://github.com/rafaeldrrmachado/AENS_portugal_tourism_clusters/blob/main/report.pdf">Relatório (PDF)</a>
+      <a href="https://github.com/rafaeldrrmachado">Autor</a>
+    </div>
+    <div class="sig">Rafael Machado · PCA + K-means · dados INE · fronteiras GADM</div>
+  </div>
+</footer>
+
+<script>
+  (function(){
+    var tabs = Array.prototype.slice.call(document.querySelectorAll('[role="tab"]'));
+    function select(tab){
+      tabs.forEach(function(t){
+        var on = t === tab;
+        t.setAttribute('aria-selected', on ? 'true' : 'false');
+        t.tabIndex = on ? 0 : -1;
+        document.getElementById(t.getAttribute('aria-controls')).hidden = !on;
+      });
+    }
+    tabs.forEach(function(tab, i){
+      tab.addEventListener('click', function(){ select(tab); });
+      tab.addEventListener('keydown', function(e){
+        var idx = null;
+        if(e.key === 'ArrowRight') idx = (i + 1) % tabs.length;
+        if(e.key === 'ArrowLeft')  idx = (i - 1 + tabs.length) % tabs.length;
+        if(idx !== null){ e.preventDefault(); tabs[idx].focus(); select(tabs[idx]); }
+      });
+    });
+  })();
+</script>
+</body>
+</html>
