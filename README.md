@@ -4,6 +4,7 @@
 
 **A statistical analysis of tourism competitiveness and regional clustering across Portugal.**
 Link to website [here](https://rafaeldrrmachado.github.io/AENS_portugal_tourism_clusters/)
+
 [View Report](report.pdf)
 
 </div>
